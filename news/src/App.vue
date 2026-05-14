@@ -1,16 +1,45 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">Form</router-link> |
-    <router-link to="/sample">Sample</router-link> |
-    <router-link to="/pinia">Finia</router-link>
+    <router-link to="/Search">Search</router-link>
   </nav>
   <router-view />
 </template>
 
 <style lang="scss">
-html {
-  background-color: black;
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+p,
+figure {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
 }
 
 #app {
@@ -18,7 +47,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
+  color: #2c3e50;
 }
 
 nav {
@@ -26,7 +55,7 @@ nav {
 
   a {
     font-weight: bold;
-    color: white;
+    color: #2c3e50;
 
     &.router-link-exact-active {
       color: #42b983;

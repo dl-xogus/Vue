@@ -1,0 +1,9 @@
+프로젝트 만드는 방법
+└ vue create 프로젝트명
+    └ Babel, Router, Vuex, CSS Pre-processors, Linter
+    └ 3.x
+    └ Sass/SCSS
+    └ 
+
+localhost 실행 방법
+└ npm run serve
